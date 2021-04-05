@@ -1,0 +1,134 @@
+﻿.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+    .page-header h2 {
+        color: #a5a5a5;
+    }
+
+.affix {
+    position: fixed;
+}
+
+@media (min-width: 768px) {
+    .navbar-scroll {
+        top: 0;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .affix {
+        position: relative;
+    }
+}
+
+/*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+
+/* Common styles for all types */
+.bs-callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+    .bs-callout h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .bs-callout p:last-child {
+        margin-bottom: 0;
+    }
+
+    .bs-callout code {
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+/* Variations */
+.bs-callout-danger {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+
+    .bs-callout-danger h4 {
+        color: #d9534f;
+    }
+
+.bs-callout-warning {
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+}
+
+    .bs-callout-warning h4 {
+        color: #f0ad4e;
+    }
+
+.bs-callout-info {
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+
+    .bs-callout-info h4 {
+        color: #5bc0de;
+    }
+
+.img-responsive {
+    max-width: 100%;
+}
+
+label.error {
+    margin: 0;
+    font-size: 11px;
+    color: #ee0101;
+    padding: 5px;
+    display: block;
+    width: 100%;
+}
+
+.hotspot {
+    cursor: pointer;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    -moz-animation: blink normal 0.6s infinite ease-in-out;
+    -webkit-animation: blink normal 0.6s infinite ease-in-out;
+    animation: blink normal 0.6s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
